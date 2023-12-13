@@ -6,7 +6,9 @@
 
 == **安装** ==
 
-1.下载`homepage-popup-notice.zip`解压到`wp-content/plugins/
+**下载带有版本号的压缩包**
+
+1.下载`homepage-popup-noticev版本号.zip`解压到`wp-content/plugins/
 
 2. 通过 WordPress 中的“插件”菜单激活插件。
    
