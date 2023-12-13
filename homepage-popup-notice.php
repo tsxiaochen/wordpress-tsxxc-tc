@@ -158,8 +158,9 @@ function my_bodytwo() {
     $tcJs = "https://t.uip.top/plugins/homepage-popup-notice/tc.js";
     $my_bodytwo = "
     <script type=\"text/javascript\" src=\"$tcJs\"></script>
-    <div class=\"layer\" hidden></div>
-    <div id=\"globalAd\" hidden>
+    <style>#globalAd{display:none;}</style>
+    <div class=\"layer\"></div>
+    <div id=\"globalAd\">
         <div class=\"web_notice\" style=\"position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.3);z-index: 99999;\">
             <div style=\"position: fixed;top: 50%;left: 50%;width: $popup_notice_pc_logo_width;background: #FFF;transform: translate(-50%, -50%);border-radius: 40px;padding: 20px 40px;\">
                 <h3 style=\"font-weight: bold;text-align: center;font-size: 30px;\">$popup_noticet_pc_anz</h3>
